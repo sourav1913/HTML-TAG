@@ -1,0 +1,49 @@
+body {
+
+}
+.click{
+	float: left;
+}
+.click ul li{
+	height: 35px;
+	width: 150px;
+	position: absolute;
+	list-style: none;
+	border: 2px solid black;
+	margin-left: 20px;
+	background-color:black;
+	text-align: center;
+}
+.click ul li a{
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	line-height: 35px;
+	color:white;
+	font-size: 25px;
+	font-style: italic;
+
+}
+h1{
+	text-align:center;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.target_blank a{
+	color:white;
+}
+.massage{
+	width:200px;
+	height:200px;
+	color:blue;
+	background:white;
+	font-weight:bold;
+	font-style:italic;
+	border:1px solid red;
+	margin:20px;
+	overflow:scroll ;
+}

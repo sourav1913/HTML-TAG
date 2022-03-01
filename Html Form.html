@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style type="text/css">
+	#demo{background-color:#ddd; color:blue; height:250px; width:500px;}
+	</style>
+</head>
+
+<body>
+	<h2>Form-1</h2>
+	<form action="#">
+		<label for="">Name:</label>
+		<input type="text" placeholder="your Name" required/> <br /><br /> 
+		
+		<label for="">Email:</label>
+		<input type="email" placeholder="Your Email" required/><br><br>
+		
+		<label for="">Password:</label>
+		<input type="password" /><br /><br /> 
+		
+		<label for="">Date</label>
+		<input type="date" /> <br /><br /> 
+		
+		<label for="">Time</label>
+		<input type="time" /><br /><br /> 
+		
+		<label for="">Range</label>
+		<input type="range"/><br /><br />
+		
+		<label for="">Upload Photo</label>
+		<input type="file" /><br /><br />
+
+		<input type="submit" value="sand" /><br /><br />
+		
+		<label for="Search"></label>
+		<input type="search" value="search" /><br /><br /> 
+		
+		<label for="">Color</label>
+		<input type="color" /><br /><br /> 
+		
+		<label for="">Gender</label>
+		<input type="radio" name="gen" />Male
+		<input type="radio" name="gen" />Female
+		<input type="radio" name="gen" />Other <br /><br /> 
+		</form>
+	
+	<h2>Form-2</h2>
+	<form id="demo"action="" name="myForm" onsubmit="return(validate());">
+		<table  width="500" height="250" cellspacing="1" cellpadding="2" border="15" >
+			<tr>
+				<td align="center">Name</td>
+				<td><input type="text" name="Name" /></td>
+			</tr>
+
+			<tr>
+				<td align="center">Email</td>
+				<td><input type="text" name="Email" /></td>
+			</tr>
+
+			<tr>
+				<td align="center">Zip Code</td>
+				<td><input type="text" name="Zip" /></td>
+			</tr>
+
+			<tr>
+				<td align="center">Country</td>
+				<td>
+					<select name="Country">
+						<option value="-1" selected>[choose your]</option>
+						<option value="">UK</option>
+						<option value="">USA</option>
+						<option value="">INDIA</option>
+						<option value="">BANGLADESH</option>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td align="center">Click-</td>
+				<td><input type="submit" value="Submit" /></td>
+			</tr>
+		</table>
+	</form>
+
+	<h2>Form-3</h2>
+	<form action="">
+		<select name="cars" size="3" multiple>
+			<option value="volvo">Volvo</option>
+			<option value="saab">Saab</option>
+			<option value="fiat">Fiat</option>
+			<option value="sudi">Audi</option>
+		</select>
+	</form>
+
+	<h2>Form-4</h2>
+<form action="">
+					<textarea name="name" rows="8" cols="80">
+The cat was playing in the garden.
+					</textarea>
+</form>
+
+<h2>Form-5</h2>
+		First name : <br>
+			<input type="text" name="firstname" value="S MiM" size="35"  disabled>		<br><br>
+		Last name : <br>
+		<input type="text" name="lastname" value="Mahim" maxlength="10">
+
+<h2>Form-6</h2>
+<form action="">
+	Uset Name : <br>
+	<input type="text" name="username"><br>
+	User Password : <br>
+	<input type="password" name="psw"><br><br>
+	<input type="submit" value="Submit">
+	<input type="reset">
+</form>
+
+<h2>Form-7</h2>
+<form action="">
+	<input type="radio" name="gender" value="male" checked>Male <br>
+	<input type="radio" name="gender" value="female" checked>Female <br>
+	<input type="radio" name="gender" value="other">Other <br>
+</form>
+
+	<h2>Form-8</h2>
+<form action="">
+<input type="checkbox" name="vehicle1" value="Bike">I have a Bike <br>
+<input type="checkbox" name="vehicle2" value="Car">I have a Car
+</form>
+
+<h2>Form-9</h2>
+<form>
+<select name="Cars">
+	<option value="volvo">Volvo</option>
+	<option value="saab">Saab</option>
+	<option value="fiat" selected>Fiat</option>
+	<option value="audi">Audi</option>
+</select>
+</form>
+
+</body>
+</html>
